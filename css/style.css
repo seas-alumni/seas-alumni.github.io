@@ -5,6 +5,22 @@ Author: Stanislav Kostadinov
 Author URI: http://stanislav.it
 Version: 1.0.0 - 11.01.2014
 */
+::-webkit-scrollbar {
+    width: 6px;
+}
+ 
+::-webkit-scrollbar-track {
+    width: 6px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    /*border-radius: 10px;*/
+}
+ 
+::-webkit-scrollbar-thumb {
+    width: 6px;
+    /*border-radius: 10px;*/
+    background-color: #0288d1;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
 
 * {margin: 0; padding: 0;}
 
@@ -91,3 +107,4 @@ section {
 	}
 
 }
+
